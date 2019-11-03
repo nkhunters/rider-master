@@ -1,0 +1,41 @@
+{
+  "expo": {
+    "name": "Dispatch",
+    "slug": "dispatch",
+    "privacy": "public",
+    "sdkVersion": "33.0.0",
+    "platforms": [
+      "ios",
+      "android",
+      "web"
+    ],
+    "version": "1.0.0",
+    "orientation": "portrait",
+    "icon": "./assets/icon.png",
+    "splash": {
+      "image": "./assets/splash.png",
+      "resizeMode": "cover",
+      "backgroundColor": "#ffffff"
+    },
+    "updates": {
+      "fallbackToCacheTimeout": 0
+    },
+    "assetBundlePatterns": [
+      "**/*"
+    ],
+    "ios": {
+      "supportsTablet": true,
+      "bundleIdentifier": "dispatch.app.com",
+	  "buildNumber": "1.0.0"
+    },
+	"android": {
+      "package": "dispatch.app.com",
+	  "versionCode": 1,
+	  "config":{
+		"googleMaps": {
+			"apiKey": "AIzaSyAbtwH_9758ffXP8fP-8i4EiWK2V8tk7r4"
+		}
+	  }
+    }
+  }
+}

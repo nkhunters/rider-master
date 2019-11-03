@@ -1,0 +1,50 @@
+{
+  "main": "node_modules/expo/AppEntry.js",
+  "scripts": {
+    "start": "expo start",
+    "android": "expo start --android",
+    "ios": "expo start --ios",
+    "eject": "expo eject"
+  },
+  "dependencies": {
+    "@mapbox/polyline": "^1.1.0",
+    "expo": "^33.0.0",
+    "expo-font": "^5.0.1",
+    "lodash": "^4.17.15",
+    "moment": "^2.24.0",
+    "native-base": "^2.7.2",
+    "prop-types": "^15.7.2",
+    "react": "16.8.3",
+    "react-dom": "^16.8.6",
+    "react-native": "https://github.com/expo/react-native/archive/sdk-33.0.0.tar.gz",
+    "react-native-autocomplete-input": "^3.6.0",
+    "react-native-communications": "^2.2.1",
+    "react-native-country-picker-modal": "^0.8.0",
+    "react-native-credit-card-input": "^0.4.1",
+    "react-native-drawer": "^2.5.1",
+    "react-native-fbsdk": "^0.10.1",
+    "react-native-google-static-map": "^0.1.13",
+    "react-native-image-picker": "^0.28.0",
+    "react-native-keyboard-aware-scroll-view": "^0.5.0",
+    "react-native-maps": "^0.24.2",
+    "react-native-onesignal": "^3.3.1",
+    "react-native-permissions": "1.1.1",
+    "react-native-router-flux": "^4.0.6",
+    "react-native-sentry": "^0.43.2",
+    "react-native-splash-screen": "^3.2.0",
+    "react-native-vector-icons": "^4.6.0",
+    "react-native-web": "^0.11.4",
+    "react-redux": "^7.1.0",
+    "redux": "^4.0.4",
+    "redux-form": "^8.2.4",
+    "redux-logger": "^3.0.6",
+    "redux-persist": "^4.10.2",
+    "redux-persist-transform-filter": "0.0.18",
+    "redux-thunk": "^2.3.0",
+    "socket.io-client": "^2.1.1"
+  },
+  "devDependencies": {
+    "babel-preset-expo": "^5.1.1"
+  },
+  "private": true
+}
